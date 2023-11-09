@@ -14,7 +14,7 @@ def homepage():
 
 @app.route('/hello/<name>')
 def hello(name):
-    listOfNames = [name, "Yoyo", "Yenifer"]
+    listOfNames = [name, "Golden Retriver", "Poodles", "Bull Dogs", "Husky"]
     return render_template('name.html', Sname = name, nameList = listOfNames)
 
 
